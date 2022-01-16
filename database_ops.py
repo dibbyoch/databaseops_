@@ -30,22 +30,3 @@ ResultProxy = connection.execute(query)
 ResultSet = ResultProxy.fetchall()
 print(ResultSet)
 
-
-#m = db.select([employees]).where(employees.columns.departmentid == '301')
-
-#print(m)
-
-
-
-
-
-
-
-
-
-'''
-query = db.select([employees]).where(employees.columns.HRA == 600)
-ResultProxy = connection.execute(query)
-ResultSet = ResultProxy.fetchall()
-print(ResultSet)
-'''
